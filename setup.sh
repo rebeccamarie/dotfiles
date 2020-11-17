@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#git clone git@github.com:rebeccamarie/dotfiles.git
 # Step 1: install my SSH key
 # Step 2: download my dotfiles github repo
 # Step 3: in command line, run   $HOME/Projects/dotfiles/setup.sh
