@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/rms/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -42,10 +42,10 @@ ZSH_THEME="random"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-  alias ftw="cd '/Users/rms/Documents/Projects/Family Trunk Website GD/Archive'"
+  alias ftw="cd '$HOME/Documents/Projects/Family Trunk Website GD/Archive'"
   alias editconfig="code ~/.zshrc"
   alias updateconfig="source ~/.zshrc"
-  alias editftw="code '/Users/rms/Documents/Projects/Family Trunk Website GD/Archive'"
+  alias editftw="code '$HOME/Documents/Projects/Family Trunk Website GD/Archive'"
